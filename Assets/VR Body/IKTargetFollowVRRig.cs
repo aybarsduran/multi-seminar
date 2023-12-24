@@ -9,8 +9,7 @@ public class VRMap
 {
     public Transform vrTarget;
     public Transform ikTarget;
-    public Vector3 trackingPositionOffset;
-    public Vector3 trackingRotationOffset;
+   
     public void Map()
     {
         ikTarget.position = vrTarget.position;
